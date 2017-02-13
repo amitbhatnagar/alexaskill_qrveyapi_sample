@@ -1,0 +1,6 @@
+plan a General Event
+plan a Event
+plan a Vacation
+plan a Group Vacation
+plan Trip
+plan a Trip

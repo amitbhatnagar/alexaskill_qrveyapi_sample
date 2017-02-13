@@ -1,0 +1,20 @@
+GetSurveyListIntent get my surveys
+GetSurveyListIntent get survey
+GetSurveyListIntent get my survey list
+GetSurveyListIntent get survey list
+GetSurveyListIntent what are my survey
+GetSurveyListIntent list survey
+GetSurveyListIntent How  many surveys do I have
+
+GetSurveyTemplatesIntent get templates
+GetSurveyTemplatesIntent list templates
+GetSurveyTemplatesIntent what templates do you have
+GetSurveyTemplatesIntent what templates do I have
+GetSurveyTemplatesIntent what are the templates
+GetSurveyTemplatesIntent how many templates do I have
+
+CreateSurveyFromTemplate I want to {Template}
+CreateSurveyFromTemplate {Template}
+
+AMAZON.StopIntent I'm done
+AMAZON.StopIntent Ok, thanks

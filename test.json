@@ -1,0 +1,179 @@
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "I found a matching template called Group Vacation. Would you like to use it?"
+    },
+    "card": {
+      "content": "I found a matching template called Group Vacation. Would you like to use it?",
+      "title": "Qrvey API",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": "You can say, Yes or No"
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "stage": 1,
+    "templateJson": {
+      "totalTime": 82,
+      "questions": {
+        "data": [
+          {
+            "question": "main",
+            "sliderVal": "7",
+            "answers": [
+              {
+                "answer": "$250"
+              },
+              {
+                "answer": "$1750"
+              }
+            ],
+            "middleValue": 4,
+            "id": "Y8BP6K60",
+            "text": "How much are you willing to spend per person for the whole deal including travel costs, stay & activities?",
+            "time": 21,
+            "type": "SLIDEBAR"
+          },
+          {
+            "allowDecimals": false,
+            "numberType": "General",
+            "question": "main",
+            "hasMinMax": false,
+            "answers": [
+              {
+                "answer": "NUMERIC"
+              }
+            ],
+            "id": "NUQHTF13",
+            "text": "How many days should our vacation be?",
+            "time": 8,
+            "type": "NUMERIC"
+          },
+          {
+            "question": "main",
+            "answers": [
+              {
+                "answer": "East Coast US"
+              },
+              {
+                "answer": "Mid-Western US"
+              },
+              {
+                "answer": "Southern US"
+              },
+              {
+                "answer": "West Coast US"
+              },
+              {
+                "answer": "Caribbean Islands"
+              },
+              {
+                "answer": "Mexico"
+              }
+            ],
+            "id": "22452MGM",
+            "text": "Rank where we should go from most favorite up top!",
+            "time": 20,
+            "type": "RANKING"
+          },
+          {
+            "question": "main",
+            "answers": [
+              {
+                "route": {
+                  "name": "Hotel",
+                  "questions": {
+                    "data": [
+                      {
+                        "question": "main",
+                        "answers": [
+                          {
+                            "answer": "RATING"
+                          }
+                        ],
+                        "rating": 5,
+                        "id": "GCCN38R2",
+                        "text": "What star rating is the minimum requirement for you?",
+                        "time": 9,
+                        "type": "RATING"
+                      }
+                    ]
+                  }
+                },
+                "answer": "Hotel or Motel"
+              },
+              {
+                "route": {
+                  "name": "Home-Away",
+                  "questions": {
+                    "data": [
+                      {
+                        "otherField": true,
+                        "question": "main",
+                        "answers": [
+                          {
+                            "answer": "Home Away"
+                          },
+                          {
+                            "answer": "Air BnB"
+                          }
+                        ],
+                        "id": "AFYIOY1A",
+                        "text": "Do you have a preferred website? Choose more than one if you like.",
+                        "time": 6,
+                        "type": "MULTIPLE_CHOICE"
+                      }
+                    ]
+                  }
+                },
+                "answer": "Home-Away or Air BnB"
+              }
+            ],
+            "id": "HA7NJUME",
+            "text": "What type of accommodations do you prefer?",
+            "time": 7,
+            "type": "SINGLE_CHOICE"
+          },
+          {
+            "question": "main",
+            "answers": [
+              {
+                "answer": "EXPRESSION"
+              }
+            ],
+            "multiple": true,
+            "words": [
+              {
+                "text": "Excited"
+              },
+              {
+                "text": "Dope"
+              },
+              {
+                "text": "Yay"
+              }
+            ],
+            "id": "PPP2XYDK",
+            "text": "How do you feel about the prospects of having fun together?",
+            "time": 17,
+            "type": "EXPRESSION",
+            "activeCat": false
+          }
+        ]
+      },
+      "appType": "SURVEY",
+      "category": "Friends & Family",
+      "templateID": "H8ILFgT",
+      "description": "Planning a vacation with a group of friends? Use a qrvey to avoid confusion, long email chains and mistakes.",
+      "name": "Group Vacation",
+      "totalQuestions": 5
+    }
+  }
+}
